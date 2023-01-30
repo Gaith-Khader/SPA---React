@@ -1,0 +1,47 @@
+.home{
+    background-color: #1DBC9C;
+    height: 700px;
+}
+.home .avatar{
+    width: 250px;
+}
+.home .title{
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+}
+.home .star{
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+}
+.starDiv{
+    position: relative;
+}
+.starDiv::after{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 42%;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+}
+.starDiv::before{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 42%;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+}
+.home .para{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}

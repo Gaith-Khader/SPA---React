@@ -1,0 +1,28 @@
+.footer{
+    background-color: #2C3E50;
+    color: #fff;
+}
+.footerIcon{
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: .3s;
+}
+.faceIcon{
+    padding: 10px 17px!important;
+}
+.footerIcon:hover{
+    color: #2C3E50;
+    background-color: #fff;
+}
+.footer p{
+    font-size: 20px;
+}
+.footer p a{
+    color: #1abc9c;
+    text-decoration: underline !important;
+}
+.copyRight{
+    background-color: #1a252f;
+    color: #fff;
+}

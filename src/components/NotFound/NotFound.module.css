@@ -1,0 +1,14 @@
+.error{
+    background-image: url('./img/Background404.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+/* .error h2{
+    text-align: center;
+}
+.error .title{
+    border: 3px solid #1DBC9C;
+    padding: 30px;
+} */
